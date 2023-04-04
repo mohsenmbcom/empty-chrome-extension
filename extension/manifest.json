@@ -1,0 +1,14 @@
+{
+    "name": "<Name of the extension>",
+    "description": "<Description>",
+    "version": "<Version>",
+    "manifest_version": 3,
+    "permissions": [],
+    "icons": {
+        "64": "assets/icon-64.png",
+        "256": "assets/icon-256.png"
+    },
+    "background": {
+        "service_worker": "main.js"
+    }
+}
